@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -49,7 +50,7 @@ const About = () => {
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
-        {/* services for card found in index.js */}
+        {/* services for card found in index.js. Revise ServiceCard text and icons*/}
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
@@ -58,4 +59,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default SectionWrapper(About, "about");
