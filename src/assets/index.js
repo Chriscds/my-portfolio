@@ -1,3 +1,4 @@
+// assets
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -7,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// tech
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,14 +23,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// experiences
+import edx from "./company/edx.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// projects
+import cheatsheet from "./projects/cheatsheet.png";
+import horiseon from "./projects/horiseon.png";
+import passwordgenerator from "./projects/passwordgenerator.png";
+import preworkstudyguide from "./projects/preworkstudyguide.png";
+import readmeoutput from "./projects/readmeoutput.png";
+import teamprofile from "./projects/teamprofile.png";
+
+
 
 export {
   logo,
@@ -52,11 +58,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  edx,
+  cheatsheet,
+  horiseon,
+  passwordgenerator,
+  preworkstudyguide,
+  readmeoutput,
+  teamprofile,
 };

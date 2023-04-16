@@ -1,30 +1,32 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    // edx,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    cheatsheet,
-    // jobit,
-    tripguide,
-    threejs,
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  edx,
+  cheatsheet,
+  horiseon,
+  passwordgenerator,
+  preworkstudyguide,
+  readmeoutput,
+  teamprofile,
   } from "../assets";
   
   export const navLinks = [
@@ -120,68 +122,16 @@ import {
     {
       title: "Frontend Bootcamp",
       company_name: "edX",
-      // icon: starbucks,
+      icon: edx,
       iconBg: "#383E56",
       date: "Nov 2022 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        ".",
+        ".",
+        ".",
+        ".",
       ],
     },
-    // {
-    //   title: "React.js Developer",
-    //   company_name: "Starbucks",
-    //   icon: starbucks,
-    //   iconBg: "#383E56",
-    //   date: "March 2020 - April 2021",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -213,25 +163,67 @@ import {
   
   const projects = [
     {
-      name: "",
+      name: "Password Generator",
       description:
-        "",
+        "Password Generator webpage application choses a random password combination, based on the users input and selection of characters. Javascript will run through the users choices and will select a random password combination, and will display the results on screen with the users chosen lenght and combination.",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "html5",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css3",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: passwordgenerator,
+      source_code_link: "https://github.com/Chriscds/Password-Generator",
+    },
+    {
+      name: "npm README.md Generator",
+      description:
+        "A node.js application, to generate a readme file for your project from the command line using npm. Create a README.md file from user input, including license badges and contact information, to save time on writing out the users initial README.md.",
+      tags: [
+        {
+          name: "node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "markdown",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: readmeoutput,
+      source_code_link: "https://github.com/Chriscds/npm-readme-generator",
+    },
+    {
+      name: "Team Profile Generator",
+      description:
+        "Node.js command-line application. This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+      tags: [
+        {
+          name: "node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "markdown",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: teamprofile,
+      source_code_link: "https://github.com/Chriscds/Team-Profile-Generator",
     },
     {
       name: "CSS Cheatsheet",
@@ -252,29 +244,8 @@ import {
         },
       ],
       image: cheatsheet,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Chriscds/CSS-Cheatsheet",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
