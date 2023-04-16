@@ -246,6 +246,27 @@ import {
       image: cheatsheet,
       source_code_link: "https://github.com/Chriscds/CSS-Cheatsheet",
     },
+    {
+      name: "Prework Study Guide Webpage",
+      description:
+        "This Prework Study Guide was created for boot camp students who are going through and completing their Prework studies. It contains notes on HTML, CSS, Git, and Javascript.",
+      tags: [
+        {
+          name: "html5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: preworkstudyguide,
+      source_code_link: "https://github.com/Chriscds/prework-study-guide",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
