@@ -40,7 +40,7 @@ const handleSubmit = (e) => {
     )
     .then(() => {
       setLoading(false);
-      alert('Thank you. I will be in touch as soon as possible.');
+      alert('Thank you for contacting me. I will be in touch as soon as possible.');
 
       setForm({
         name: '',
