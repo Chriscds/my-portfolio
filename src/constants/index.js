@@ -16,12 +16,13 @@ import {
     figma,
     docker,
     meta,
-    edx,
+    // edx,
     starbucks,
     tesla,
     shopify,
     carrent,
-    jobit,
+    cheatsheet,
+    // jobit,
     tripguide,
     threejs,
   } from "../assets";
@@ -117,12 +118,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Frontend Bootcamp",
+      company_name: "edX",
       // icon: starbucks,
-      icon: edx,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Nov 2022 - March 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -233,27 +233,27 @@ import {
       image: carrent,
       source_code_link: "https://github.com/",
     },
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "CSS Cheatsheet",
+      description:
+        "Shows how CSS Flexbox, rows, columns and grid layouts work.",
+      tags: [
+        {
+          name: "bootstrap",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html5",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cheatsheet,
+      source_code_link: "https://github.com/",
+    },
     // {
     //   name: "Trip Guide",
     //   description:
