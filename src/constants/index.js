@@ -16,6 +16,7 @@ import {
     figma,
     docker,
     meta,
+    edx,
     starbucks,
     tesla,
     shopify,
@@ -115,6 +116,20 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "React.js Developer",
+      company_name: "Starbucks",
+      // icon: starbucks,
+      icon: edx,
+      iconBg: "#383E56",
+      date: "March 2020 - April 2021",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
     // {
     //   title: "React.js Developer",
     //   company_name: "Starbucks",
@@ -173,7 +188,7 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+      name: "Sarah Lee",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
