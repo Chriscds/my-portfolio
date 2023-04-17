@@ -155,7 +155,7 @@ import {
       title: "Freelance Web Developer",
       company_name: "Checkit Design Services",
       icon: cdssketch,
-      iconBg: "##383E56",
+      iconBg: "#383E56",
       date: "Nov 2021 - Present",
       points: [
         "Designing and deploying bespoke websites.",
