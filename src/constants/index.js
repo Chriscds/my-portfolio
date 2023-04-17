@@ -1,6 +1,8 @@
 import {
   logo,
   github,
+  githubicon,
+  linkedinicon,
   menu,
   close,
   coffee,

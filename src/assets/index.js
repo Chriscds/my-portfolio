@@ -1,6 +1,8 @@
 // assets
 import logo from "./logo.svg";
 import github from "./github.png";
+import githubicon from "./githubicon.png";
+import linkedinicon from "./linkedinicon.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import puzzle from "./puzzle.png";
@@ -42,6 +44,8 @@ import teamprofile from "./projects/teamprofile.png";
 export {
   logo,
   github,
+  githubicon,
+  linkedinicon,
   menu,
   close,
   coffee,
