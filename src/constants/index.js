@@ -130,10 +130,6 @@ import {
       name: "figma",
       icon: figma,
     },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
   ];
   
   const experiences = [
@@ -144,10 +140,10 @@ import {
       iconBg: "#383E56",
       date: "Nov 2022 - March 2023",
       points: [
-        ".",
-        ".",
-        ".",
-        ".",
+        "Learnt HTML, CSS and JavaScript fundementals.",
+        "Designed & built mordern web apps using Node.js & React.js.",
+        "Understanding UX design priciples.",
+        "Using Git, GitHub & Netlify.",
       ],
     },
   ];
@@ -155,27 +151,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sarah Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "",
+      name: "",
+      designation: "",
+      company: "",
+      image: "",
     },
   ];
   
