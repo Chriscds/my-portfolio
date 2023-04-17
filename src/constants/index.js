@@ -28,6 +28,7 @@ import {
   typescript,
   threejs,
   // experiences
+  cdssketch,
   edx,
   // projects
   cheatsheet,
@@ -148,6 +149,19 @@ import {
         "Designed & built mordern web apps using Node.js & React.js.",
         "Understanding UX design priciples.",
         "Using Git, GitHub & Netlify.",
+      ],
+    },
+    {
+      title: "Freelance Web Developer",
+      company_name: "Checkit Design Services",
+      icon: cdssketch,
+      iconBg: "##383E56",
+      date: "Nov 2021 - Present",
+      points: [
+        "Designing and deploying bespoke websites.",
+        "Gaining knowledge Bootstrap 5.",
+        "Understanding HTML5 structures.",
+        "Deploying via FTP.",
       ],
     },
   ];

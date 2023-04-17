@@ -31,6 +31,7 @@ import threejs from "./tech/threejs.svg";
 
 // experiences
 import edx from "./company/edx.png";
+import cdssketch from "./company/cdssketch.png";
 
 // projects
 import cheatsheet from "./projects/cheatsheet.png";
@@ -73,6 +74,7 @@ export {
   typescript,
   threejs,
   // experiences
+  cdssketch,
   edx,
   // projects
   cheatsheet,
