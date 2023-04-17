@@ -39,6 +39,7 @@ import passwordgenerator from "./projects/passwordgenerator.png";
 import preworkstudyguide from "./projects/preworkstudyguide.png";
 import readmeoutput from "./projects/readmeoutput.png";
 import teamprofile from "./projects/teamprofile.png";
+import checkitdesignservices from "./projects/checkitdesignservices.png";
 
 
 
@@ -80,4 +81,5 @@ export {
   preworkstudyguide,
   readmeoutput,
   teamprofile,
+  checkitdesignservices,
 };

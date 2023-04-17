@@ -36,6 +36,7 @@ import {
   preworkstudyguide,
   readmeoutput,
   teamprofile,
+  checkitdesignservices,
   } from "../assets";
   
   export const navLinks = [
@@ -272,6 +273,46 @@ import {
       image: preworkstudyguide,
       demo_link: "https://chriscds.github.io/prework-study-guide/",
       source_code_link: "https://github.com/Chriscds/prework-study-guide",
+    },
+    {
+      name: "Refactoring work", 
+      description:
+        "Refactor work for a marketing website application Horiseon. It contains information about the company, and what they do to forfill Search Engine Optimization, Online Reputation Managment, and Social Media Marketing.",
+      tags: [
+        {
+          name: "html5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: horiseon,
+      demo_link: "https://chriscds.github.io/mod1-ass-horiseon/starter/",
+      source_code_link: "https://github.com/Chriscds/mod1-ass-horiseon",
+    },
+    {
+      name: "Checkit Design Services",
+      description:
+        "A html and boostrap website, with css animation.",
+      tags: [
+        {
+          name: "html5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: checkitdesignservices,
+      demo_link: "https://www.checkitdesignservices.com/",
+      source_code_link: "https://www.checkitdesignservices.com/",
     },
   ];
   
