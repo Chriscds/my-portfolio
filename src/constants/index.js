@@ -12,6 +12,7 @@ import {
   // docker,
   figma,
   git,
+  githubdark,
   html,
   javascript,
   // mongodb,
@@ -110,6 +111,10 @@ import {
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "GitHub",
+      icon: githubdark,
     },
     {
       name: "figma",
