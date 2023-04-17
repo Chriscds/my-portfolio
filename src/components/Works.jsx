@@ -2,11 +2,12 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github } from '../assets';
+import { demo } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, demo_link, source_code_link }) => {
     // revise projects
     return (
       <motion.div variants={fadeIn("up", "spring", index * 0., 0.75)}>
@@ -24,6 +25,20 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               alt={name}
               className="w-full h-full object-cover rounded-2xl"
             />
+            <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
+              <div
+              onClick={() => window.open
+              (demo_link, "_blank")}
+              className="white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={demo}
+                  alt="demo"
+                  className="w-16 h-16 object-contain"
+                />
+              </div>
+
+            </div>
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
               onClick={() => window.open
@@ -36,20 +51,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                   className="w-1/2 h-1/2 object-contain"
                 />
               </div>
-              {/* LIVE URL LINK */}
-              {/* <div
-              onClick={() => window.open
-              (source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              >
-                <img
-                  src={demo}
-                  alt="demo"
-                  className="w-1/2 h-1/2 object-contain"
-                />
-              </div> */}
 
             </div>
+            
           </div>
 
           <div className="mt-5">

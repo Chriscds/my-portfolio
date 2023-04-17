@@ -1,5 +1,6 @@
 // assets
 import logo from "./logo.svg";
+import demo from './demo.png';
 import github from "./github.png";
 import githubicon from "./githubicon.png";
 import linkedinicon from "./linkedinicon.png";
@@ -43,6 +44,7 @@ import teamprofile from "./projects/teamprofile.png";
 
 export {
   logo,
+  demo,
   github,
   githubicon,
   linkedinicon,

@@ -1,5 +1,6 @@
 import {
   logo,
+  demo,
   github,
   githubicon,
   linkedinicon,
@@ -181,6 +182,7 @@ import {
         },
       ],
       image: passwordgenerator,
+      demo_link: "https://chriscds.github.io/Password-Generator/",
       source_code_link: "https://github.com/Chriscds/Password-Generator",
     },
     {
@@ -202,6 +204,7 @@ import {
         },
       ],
       image: readmeoutput,
+      demo_link: "https://drive.google.com/file/d/11YReBi5jf6As_MxEWijV8UBV0V3YqOL-/view",
       source_code_link: "https://github.com/Chriscds/npm-readme-generator",
     },
     {
@@ -223,6 +226,7 @@ import {
         },
       ],
       image: teamprofile,
+      demo_link: "https://github.com/Chriscds/Team-Profile-Generator",
       source_code_link: "https://github.com/Chriscds/Team-Profile-Generator",
     },
     {
@@ -244,6 +248,7 @@ import {
         },
       ],
       image: cheatsheet,
+      demo_link: "https://chriscds.github.io/CSS-Cheatsheet/index.html",
       source_code_link: "https://github.com/Chriscds/CSS-Cheatsheet",
     },
     {
@@ -265,6 +270,7 @@ import {
         },
       ],
       image: preworkstudyguide,
+      demo_link: "https://chriscds.github.io/prework-study-guide/",
       source_code_link: "https://github.com/Chriscds/prework-study-guide",
     },
   ];
