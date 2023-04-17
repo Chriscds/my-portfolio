@@ -140,7 +140,7 @@ import {
       iconBg: "#383E56",
       date: "Nov 2022 - March 2023",
       points: [
-        "Learnt HTML, CSS and JavaScript fundementals.",
+        "Learnt HTML, CSS and JavaScript fundamentals.",
         "Designed & built mordern web apps using Node.js & React.js.",
         "Understanding UX design priciples.",
         "Using Git, GitHub & Netlify.",

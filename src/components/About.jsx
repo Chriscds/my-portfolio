@@ -40,13 +40,10 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondarytext-[17px] max-w-3xl leading-[30px]">
         {/* revise this text */}
-        I'm a Front End Web Developer Student based in the Isle of Wight, UK.
-        Before becoming a student, I was a chef for 20 years until 
-        I decided to swap my knives for a keyboard and dive into code. Up to now, 
-        I'm self taught, and have focused mostly working with bootstrap, 
-        until I became a Front-end Development student. 
-        I'm enthusiastic when it comes to learning something new and I love a challenge and problem solving, 
-        I don't give up (unless there's no more coffee!).
+        I'm an aspiring Frontend Web Developer based on the Isle of Wight, UK.
+        Self-taught until I became a student with edX, where I gained a certificate in frontend development. 
+        I'm enthusiastic when it comes to learning and I love challenges and problem solving. 
+        I never give up (unless there's no more coffee!).
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
