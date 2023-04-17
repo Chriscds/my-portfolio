@@ -7,6 +7,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import puzzle from "./puzzle.png";
 
 // tech
 import bootstrap from "./tech/bootstrap.png";
@@ -48,6 +49,7 @@ export {
   github,
   menu,
   close,
+  puzzle,
   // tech
   bootstrap,
   css,

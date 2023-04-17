@@ -7,6 +7,7 @@ import {
   github,
   menu,
   close,
+  puzzle,
   // tech
   bootstrap,
   css,
@@ -72,8 +73,8 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Problem Solver",
+      icon: puzzle,
     },
   ];
   
