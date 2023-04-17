@@ -10,12 +10,12 @@ import close from "./close.svg";
 
 // tech
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+// import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+// import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
@@ -45,20 +45,23 @@ export {
   github,
   menu,
   close,
+  // tech
   css,
-  docker,
+  // docker,
   figma,
   git,
   html,
   javascript,
-  mongodb,
+  // mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
   typescript,
   threejs,
+  // experiences
   edx,
+  // projects
   cheatsheet,
   horiseon,
   passwordgenerator,
