@@ -8,6 +8,7 @@ import {
   menu,
   close,
   // tech
+  bootstrap,
   css,
   // docker,
   figma,
@@ -100,10 +101,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "bootstrap",
+      icon: bootstrap,
+    },
     {
       name: "Three JS",
       icon: threejs,

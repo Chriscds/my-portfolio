@@ -9,6 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 // tech
+import bootstrap from "./tech/bootstrap.png";
 import css from "./tech/css.png";
 // import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -47,6 +48,7 @@ export {
   menu,
   close,
   // tech
+  bootstrap,
   css,
   // docker,
   figma,
