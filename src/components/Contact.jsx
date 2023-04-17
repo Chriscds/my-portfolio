@@ -1,11 +1,9 @@
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-
 import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
-// import { slideIn } from '../utils/motion';
 import { fadeIn, slideIn, textVariant } from '../utils/motion';
 import { githubicon } from '../assets';
 import { linkedinicon } from '../assets';
@@ -69,30 +67,7 @@ const handleSubmit = (e) => {
       className="mt-4 text-secondarytext-[17px] max-w-3xl leading-[30px]">
         {/* revise this text */}
         Feel free to get in touch, either via the contact form below or via the following icons
-        <div className="flex justify-start items-center">
-        <div
-              onClick={() => window.open
-              ("https://github.com/Chriscds/")}
-              className="w-10 h-11 rounded-full flex justify-center items-center cursor-pointer"
-              >
-                <img
-                  src={githubicon}
-                  alt="githubicon"
-                  className="w-10 h-10 object-contain"
-                />
-              </div>
-        <div
-              onClick={() => window.open
-              ("https://www.linkedin.com/in/chris-southon-320a25258/")}
-              className="m-2 w-10 h-11 rounded-full flex justify-center items-center cursor-pointer"
-              >
-                <img
-                  src={linkedinicon}
-                  alt="linkedinicon"
-                  className="w-10 h-10 object-contain"
-                />
-              </div>
-        </div>
+
       </motion.p> 
    
     <div className={`xl:mt-12 flex xl:flex-row flex-row-reverse gap-10 overflow-hidden`}>
@@ -100,8 +75,30 @@ const handleSubmit = (e) => {
         variants={slideIn('left', "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.heroSubText}></p>
-        <h3 className={styles.heroHeadText}>Email</h3>
+                <div className="flex justify-center items-center">
+        <div
+              onClick={() => window.open
+              ("https://github.com/Chriscds/")}
+              className="w-16 h-16 flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={githubicon}
+                  alt="githubicon"
+                  className="w-16 h-16 object-contain"
+                />
+              </div>
+        <div
+              onClick={() => window.open
+              ("https://www.linkedin.com/in/chris-southon-320a25258/")}
+              className="m-2 w-16 h-16 flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={linkedinicon}
+                  alt="linkedinicon"
+                  className="w-16 h-16 object-contain"
+                />
+              </div>
+        </div>
 
         <form
           ref={formRef}
