@@ -1,13 +1,12 @@
 // assets
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import puzzle from "./puzzle.png";
+import keyboard from './keyboard.png';
+import coffee from './coffee.png';
+import colorchart from './colorchart.png';
 
 // tech
 import bootstrap from "./tech/bootstrap.png";
@@ -42,13 +41,12 @@ import teamprofile from "./projects/teamprofile.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
+  coffee,
+  colorchart,
+  keyboard,
   puzzle,
   // tech
   bootstrap,

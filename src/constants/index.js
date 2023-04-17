@@ -1,12 +1,11 @@
 import {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
+  coffee,
+  colorchart,
+  keyboard,
   puzzle,
   // tech
   bootstrap,
@@ -62,19 +61,19 @@ import {
   const services = [
     {
       title: "Frontend Developer",
-      icon: web,
-    },
-    {
-      title: "Coffee Drinker",
-      icon: mobile,
-    },
-    {
-      title: "Logo Maker",
-      icon: backend,
+      icon: keyboard,
     },
     {
       title: "Problem Solver",
       icon: puzzle,
+    },
+    {
+      title: "Content Creator",
+      icon: colorchart,
+    },
+    {
+      title: "Coffee Drinker",
+      icon: coffee,
     },
   ];
   
