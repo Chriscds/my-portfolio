@@ -16,6 +16,7 @@ import {
   githubdark,
   html,
   javascript,
+  jquery,
   // mongodb,
   nodejs,
   reactjs,
@@ -81,10 +82,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "jQuery",
+      icon: jquery,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -94,16 +95,16 @@ import {
       icon: redux,
     },
     {
+      name: "bootstrap",
+      icon: bootstrap,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "bootstrap",
-      icon: bootstrap,
     },
     {
       name: "Three JS",

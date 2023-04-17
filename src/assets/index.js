@@ -17,6 +17,7 @@ import git from "./tech/git.png";
 import githubdark from "./tech/githubdark.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import jquery from "./tech/jquery.png";
 // import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -56,6 +57,7 @@ export {
   githubdark,
   html,
   javascript,
+  jquery,
   // mongodb,
   nodejs,
   reactjs,
