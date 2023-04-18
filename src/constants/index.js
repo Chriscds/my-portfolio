@@ -306,28 +306,28 @@ import {
       demo_link: "https://chriscds.github.io/mod1-ass-horiseon/starter/",
       source_code_link: "https://github.com/Chriscds/mod1-ass-horiseon",
     },
-    {
-      name: "Checkit Design Services",
-      description:
-        "A html and boostrap website, with css animation.",
-      tags: [
-        {
-          name: "html5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: checkitdesignservices,
-      demo_link: "https://www.checkitdesignservices.com/",
-      source_code_link: "https://www.checkitdesignservices.com/",
-    },
+    // {
+    //   name: "Checkit Design Services",
+    //   description:
+    //     "A html and boostrap website, with css animation.",
+    //   tags: [
+    //     {
+    //       name: "html5",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "javascript",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "bootstrap",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: checkitdesignservices,
+    //   demo_link: "https://www.checkitdesignservices.com/",
+    //   source_code_link: "https://www.checkitdesignservices.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
