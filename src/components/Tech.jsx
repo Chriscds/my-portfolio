@@ -15,7 +15,7 @@ const Tech = () => {
 
       <motion.p
       variants={fadeIn("", "", 0.1, 1)}
-      className="mt-4 text-secondarytext-[17px] max-w-3xl leading-[30px]">
+      className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         {/* revise this text */}
         Here are the languages, tools and frameworks I have learnt so far in my development journey,
       </motion.p>

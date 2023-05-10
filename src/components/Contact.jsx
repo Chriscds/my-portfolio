@@ -64,7 +64,7 @@ const handleSubmit = (e) => {
 
       <motion.p
       variants={fadeIn("", "", 0.1, 1)}
-      className="mt-4 text-secondarytext-[17px] max-w-3xl leading-[30px]">
+      className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         {/* revise this text */}
         Feel free to get in touch at csouthon44@gmail.com, or via the contact form below, or clicking on the icons
 
