@@ -186,15 +186,19 @@ import {
       tags: [
         {
           name: "javascript",
-          color: "blue-text-gradient",
+          color: "yellow-text-gradient",
         },
         {
           name: "html5",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "css3",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "purple-text-gradient",
         },
       ],
       image: passwordgenerator,
@@ -208,15 +212,15 @@ import {
       tags: [
         {
           name: "node.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
           color: "green-text-gradient",
         },
         {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
           name: "markdown",
-          color: "pink-text-gradient",
+          color: "orange-text-gradient",
         },
       ],
       image: readmeoutput,
@@ -230,15 +234,15 @@ import {
       tags: [
         {
           name: "html5",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "css3",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "javascript",
-          color: "pink-text-gradient",
+          color: "yellow-text-gradient",
         },
       ],
       image: findmyband,
@@ -252,15 +256,15 @@ import {
       tags: [
         {
           name: "node.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
           color: "green-text-gradient",
         },
         {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
           name: "markdown",
-          color: "pink-text-gradient",
+          color: "orange-text-gradient",
         },
       ],
       image: teamprofile,
@@ -274,15 +278,15 @@ import {
       tags: [
         {
           name: "bootstrap",
-          color: "blue-text-gradient",
+          color: "purple-text-gradient",
         },
         {
           name: "html5",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "css3",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: cheatsheet,
@@ -296,15 +300,15 @@ import {
       tags: [
         {
           name: "html5",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "javascript",
-          color: "green-text-gradient",
+          color: "yellow-text-gradient",
         },
         {
           name: "css3",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: preworkstudyguide,
@@ -318,11 +322,11 @@ import {
       tags: [
         {
           name: "html5",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "css3",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: horiseon,
@@ -336,16 +340,21 @@ import {
       tags: [
         {
           name: "html5",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "javascript",
-          color: "green-text-gradient",
+          color: "yellow-text-gradient",
         },
         {
           name: "bootstrap",
-          color: "pink-text-gradient",
+          color: "purple-text-gradient",
         },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+
       ],
       image: checkitdesignservices,
       demo_link: "https://www.checkitdesignservices.com/",
