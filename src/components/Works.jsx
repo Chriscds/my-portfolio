@@ -35,16 +35,6 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            {/* <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div> */}
           </div>
         </div>
 
@@ -56,25 +46,13 @@ const ProjectCard = ({
         <div className="mt-2 flex justify-center">
         <button
               onClick={() => window.open(source_code_link, "_blank")}
-              // className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               className='black-gradient mx-1 w-20 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >GitHub
-              {/* <img
-                src={github}
-                alt='source code'
-                className=' object-contain'
-              /> */}
             </button>
         <button
               onClick={() => window.open(demo_link, "_blank")}
-              // className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               className='violet-gradient mx-1 w-20 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >Demo
-              {/* <img
-                src={github}
-                alt='source code'
-                className=' object-contain'
-              /> */}
             </button>
         </div>
 
@@ -102,19 +80,15 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
-      {/* <div className="w-full flex"> */}
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Here are my projects, showing my skills and experiences. Including live demo links and repository links.
-          {/* Content coming soon... */}
         </motion.p>
-      {/* </div> */}
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          // <ProjectCard key={`project-${index}`} index={index} {...project} />
           <ProjectCard key={project.index} index={index} {...project} />
         ))}
       </div>

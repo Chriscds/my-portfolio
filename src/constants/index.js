@@ -38,6 +38,7 @@ import {
   readmeoutput,
   teamprofile,
   checkitdesignservices,
+  findmyband,
   } from "../assets";
   
   export const navLinks = [
@@ -223,6 +224,28 @@ import {
       source_code_link: "https://github.com/Chriscds/npm-readme-generator",
     },
     {
+      name: "Find My Band",
+      description:
+        "Find My Band is a Web application project to search for your favourite musicans, their upcoming event venues, along with map and directions for the users chosen venue. Using three API's, the web application will return the results from your inputted search, with an events carousel from the chosen artist, map of the chosen venue complete with directions.",
+      tags: [
+        {
+          name: "html5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: findmyband,
+      demo_link: "https://jayclay922.github.io/Find-My-Band/index.html",
+      source_code_link: "https://github.com/JayClay922/Find-My-Band",
+    },
+    {
       name: "Team Profile Generator",
       description:
         "Node.js command-line application. This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
@@ -241,7 +264,7 @@ import {
         },
       ],
       image: teamprofile,
-      demo_link: "https://github.com/Chriscds/Team-Profile-Generator",
+      demo_link: "https://github.com/Chriscds/Team-Profile-Generator/blob/main/assets/team-profile-input.png",
       source_code_link: "https://github.com/Chriscds/Team-Profile-Generator",
     },
     {
