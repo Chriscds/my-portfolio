@@ -197,7 +197,7 @@ import {
         },
       ],
       image: passwordgenerator,
-      // demo_link: "https://chriscds.github.io/Password-Generator/",
+      demo_link: "https://chriscds.github.io/Password-Generator/",
       source_code_link: "https://github.com/Chriscds/Password-Generator",
     },
     {
@@ -219,7 +219,7 @@ import {
         },
       ],
       image: readmeoutput,
-      // demo_link: "https://drive.google.com/file/d/11YReBi5jf6As_MxEWijV8UBV0V3YqOL-/view",
+      demo_link: "https://drive.google.com/file/d/11YReBi5jf6As_MxEWijV8UBV0V3YqOL-/view",
       source_code_link: "https://github.com/Chriscds/npm-readme-generator",
     },
     {
@@ -241,7 +241,7 @@ import {
         },
       ],
       image: teamprofile,
-      // demo_link: "https://github.com/Chriscds/Team-Profile-Generator",
+      demo_link: "https://github.com/Chriscds/Team-Profile-Generator",
       source_code_link: "https://github.com/Chriscds/Team-Profile-Generator",
     },
     {
@@ -263,7 +263,7 @@ import {
         },
       ],
       image: cheatsheet,
-      // demo_link: "https://chriscds.github.io/CSS-Cheatsheet/index.html",
+      demo_link: "https://chriscds.github.io/CSS-Cheatsheet/index.html",
       source_code_link: "https://github.com/Chriscds/CSS-Cheatsheet",
     },
     {
@@ -285,7 +285,7 @@ import {
         },
       ],
       image: preworkstudyguide,
-      // demo_link: "https://chriscds.github.io/prework-study-guide/",
+      demo_link: "https://chriscds.github.io/prework-study-guide/",
       source_code_link: "https://github.com/Chriscds/prework-study-guide",
     },
     {
@@ -303,30 +303,52 @@ import {
         },
       ],
       image: horiseon,
-      // demo_link: "https://chriscds.github.io/mod1-ass-horiseon/starter/",
+      demo_link: "https://chriscds.github.io/mod1-ass-horiseon/starter/",
       source_code_link: "https://github.com/Chriscds/mod1-ass-horiseon",
     },
+    {
+      name: "Checkit Design Services",
+      description:
+        "A html and boostrap website, with css animation.",
+      tags: [
+        {
+          name: "html5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: checkitdesignservices,
+      demo_link: "https://www.checkitdesignservices.com/",
+      source_code_link: "https://www.checkitdesignservices.com/",
+    },
     // {
-    //   name: "Checkit Design Services",
+    //   name: "",
     //   description:
-    //     "A html and boostrap website, with css animation.",
+    //     "",
     //   tags: [
     //     {
-    //       name: "html5",
+    //       name: "",
     //       color: "blue-text-gradient",
     //     },
     //     {
-    //       name: "javascript",
+    //       name: "",
     //       color: "green-text-gradient",
     //     },
     //     {
-    //       name: "bootstrap",
+    //       name: "",
     //       color: "pink-text-gradient",
     //     },
     //   ],
-    //   image: checkitdesignservices,
-    //   demo_link: "https://www.checkitdesignservices.com/",
-    //   source_code_link: "https://www.checkitdesignservices.com/",
+    //   image: ,
+    //   demo_link: "",
+    //   source_code_link: "",
     // },
   ];
   
