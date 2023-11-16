@@ -42,6 +42,7 @@ import {
   teamprofile,
   checkitdesignservices,
   findmyband,
+  weatherdashboard,
   } from "../assets";
   
   export const navLinks = [
@@ -224,6 +225,32 @@ import {
       image: passwordgenerator,
       demo_link: "https://chriscds.github.io/Password-Generator/",
       source_code_link: "https://github.com/Chriscds/Password-Generator",
+    },
+    {
+      name: "Weather Dashboard",
+      description:
+        "Weather Dashboard is a web application featuring a search input for all cities around the world, using users input to give realtime weather information including icons.",
+      tags: [
+        {
+          name: "html5",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "css3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "api",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: weatherdashboard,
+      demo_link: "https://chriscds.github.io/Weather-Forecast-Dashboard/",
+      source_code_link: "https://github.com/Chriscds/Weather-Forecast-Dashboard",
     },
     {
       name: "npm README.md Generator",

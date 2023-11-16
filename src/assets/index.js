@@ -44,6 +44,7 @@ import readmeoutput from "./projects/readmeoutput.png";
 import teamprofile from "./projects/teamprofile.png";
 import checkitdesignservices from "./projects/checkitdesignservices.png";
 import findmyband from "./projects/find-my-band.png";
+import weatherdashboard from "./projects/weatherdashboard.png";
 
 
 
@@ -90,4 +91,5 @@ export {
   teamprofile,
   checkitdesignservices,
   findmyband,
+  weatherdashboard,
 };
