@@ -148,15 +148,15 @@ import {
   const experiences = [
     {
       title: "Frontend Web Developer",
-      company_name: "Virtual Internships",
+      company_name: "Virtual Internships - Handy Services Ltd",
       icon: internship,
       iconBg: "#383E56",
       date: "Sept 2023 - Present",
       points: [
-        "Learnt HTML, CSS and JavaScript fundamentals.",
-        "Designed & built modern web apps using Node.js & React.js.",
-        "Understanding UX design priciples.",
-        "Using Git, GitHub & Netlify.",
+        "Responsive page layouts using Vue 3.",
+        "Intergration of API's for location & translations.",
+        "Intergrating with backend data.",
+        "Collaboration using GitLab, Git, Slack & Trello.",
       ],
     },
     {
