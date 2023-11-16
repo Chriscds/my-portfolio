@@ -23,6 +23,7 @@ import {
   // mongodb,
   nodejs,
   reactjs,
+  vuejs,
   redux,
   tailwind,
   typescript,
@@ -105,6 +106,10 @@ import {
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Vue JS",
+      icon: vuejs,
     },
     {
       name: "Redux Toolkit",
