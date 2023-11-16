@@ -29,7 +29,9 @@ import {
   threejs,
   // experiences
   cdssketch,
+  internship,
   edx,
+  
   // projects
   cheatsheet,
   horiseon,
@@ -139,6 +141,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Frontend Web Developer",
+      company_name: "Virtual Internships",
+      icon: internship,
+      iconBg: "#383E56",
+      date: "Sept 2023 - Present",
+      points: [
+        "Learnt HTML, CSS and JavaScript fundamentals.",
+        "Designed & built modern web apps using Node.js & React.js.",
+        "Understanding UX design priciples.",
+        "Using Git, GitHub & Netlify.",
+      ],
+    },
     {
       title: "Frontend Bootcamp",
       company_name: "edX",

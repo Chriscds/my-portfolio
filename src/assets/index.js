@@ -32,6 +32,7 @@ import threejs from "./tech/threejs.svg";
 // experiences
 import edx from "./company/edx.png";
 import cdssketch from "./company/cdssketch.png";
+import internship from "./company/internship.png";
 
 // projects
 import cheatsheet from "./projects/cheatsheet.png";
@@ -77,6 +78,7 @@ export {
   // experiences
   cdssketch,
   edx,
+  internship,
   // projects
   cheatsheet,
   horiseon,
