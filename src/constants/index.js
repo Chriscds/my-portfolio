@@ -111,10 +111,10 @@ import {
       name: "Vue JS",
       icon: vuejs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "bootstrap",
       icon: bootstrap,
